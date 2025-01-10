@@ -1,5 +1,5 @@
 {
-  "homepage":"https://github.com/Zzz-Pranjal-Kundu/GONAV_PRO",
+  "homepage": "https://github.com/Zzz-Pranjal-Kundu/GONAV_PRO",
   "name": "gonav_pro",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
