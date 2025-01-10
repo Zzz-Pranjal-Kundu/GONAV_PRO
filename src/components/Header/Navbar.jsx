@@ -18,6 +18,7 @@ const Navbar = ({ onSearch, updateMapCenter }) => {
       setSuggestions([]);
       return;
     }
+    
 
     const service = new window.google.maps.places.AutocompleteService();
     service.getPlacePredictions(
