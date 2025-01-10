@@ -1,6 +1,4 @@
-
-
-import React, { useState, useCallback, useRef, useEffect } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 
 // Container style for the map
@@ -114,7 +112,7 @@ const MapContainer = ({
 
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyDgYcVpjAxBBmyk8QWrFwUJB_gw2yt0qOI" // Replace with your actual API key
+    googleMapsApiKey={process.env.REACT_APP_API_KEY} // Replace with your actual API key
       libraries={["places"]} // Load Places library
       onLoad={() => setGoogleMapsApiLoaded(true)} // Set flag when API is ready
     >
