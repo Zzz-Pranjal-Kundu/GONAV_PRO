@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Zzz-Pranjal-Kundu/GONAV_PRO/static/css/main.e6c13ad2.css",
+    "main.js": "/Zzz-Pranjal-Kundu/GONAV_PRO/static/js/main.e28c6976.js",
+    "index.html": "/Zzz-Pranjal-Kundu/GONAV_PRO/index.html",
+    "main.e6c13ad2.css.map": "/Zzz-Pranjal-Kundu/GONAV_PRO/static/css/main.e6c13ad2.css.map",
+    "main.e28c6976.js.map": "/Zzz-Pranjal-Kundu/GONAV_PRO/static/js/main.e28c6976.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e28c6976.js"
+  ]
+}
